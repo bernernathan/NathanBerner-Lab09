@@ -15,17 +15,9 @@ if __name__ == "__main__":
 
 
     def decode(password):
-        decoded_password = ""
-        for item in range(len(password)):
-            if int(password[item]) == 2:
-                decoded_password += 9
-            elif int(password[item]) == 1:
-                decoded_password += 8
-            elif int(password[item]) == 0:
-                decoded_password += 7
-            else:
-                decoded_password += str(int(password[item]) - 3)
-        return decoded_password
+        pass
+
+    
     while True:
         print("Menu")
         print("-------------")
