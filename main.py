@@ -13,7 +13,8 @@ if __name__ == "__main__":
                 encoded_password += str(int(password[item]) + 3)
         return encoded_password
 
-
+    #add in decode function
+    
     while True:
         print("Menu")
         print("-------------")
